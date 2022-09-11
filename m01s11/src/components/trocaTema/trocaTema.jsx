@@ -1,8 +1,9 @@
 import React from "react"
+import { Botao } from "./TrocaTema.styled"
 
 
 export const TrocaTemaBotao = () => {
     return (
-        <button >Trocar Tema</button>
+        <Botao >Trocar Tema</Botao>
     )
 }

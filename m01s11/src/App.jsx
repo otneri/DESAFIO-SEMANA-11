@@ -1,6 +1,7 @@
+import { Navbar } from "./components/Navbar"
 import { TemasDarkLight } from "./context/Context"
 import { Layout } from "./layout"
-import { DarkPage } from "./themes/dark"
+
 import { GlobalStyle } from "./themes/globalStyles"
 
 

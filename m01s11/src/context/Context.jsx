@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import {DarkPage} from '../themes/dark'
 import {LightPage} from '../themes/light' 
-import { TrocaTemaBotao } from "../components/trocaTema/trocaTema";
 import PropTypes  from "prop-types";
 import { getTheme, setTheme } from "../utils/localStorage";
 
@@ -32,7 +31,6 @@ export const TemasDarkLight = ({children}) => {
     
     return(    
         <Contexto.Provider value= {{theme: isdark ? DarkPage: LightPage , handleTheme}}>
-            <TrocaTemaBotao onClick={() =>{}} />
             {children}
         </Contexto.Provider>
     )
