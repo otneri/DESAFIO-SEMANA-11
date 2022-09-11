@@ -1,7 +1,1 @@
-import { useEffect } from "react"
-
-
-export const useTemaSelect =  ({tema}) => {
-
-    
-}
+export {Layout} from './layout'
