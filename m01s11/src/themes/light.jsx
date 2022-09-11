@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
 
-export const LightPage = 
-    styled.header`
-    background-color: white;
-    color: black;
+export const LightPage = `
+    colors:{
+        backgroundPrimary: #C7CCB9;
+        backgroundSecondary: #CAE2BC;
+        primary: black;
+    }
 `; 
-    styled.body`
-    background-color: aliceblue;
-    color: black;
-`

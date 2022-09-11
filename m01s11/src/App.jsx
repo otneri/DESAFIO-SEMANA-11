@@ -1,4 +1,4 @@
-import { Header } from "./components/header"
+import { TemasDarkLight } from "./context/Context"
 import { GlobalStyle } from "./themes/globalStyles"
 
 
@@ -6,12 +6,12 @@ function App() {
   
 
   return (
-    <>    
+    <>
+      
       <GlobalStyle/>
-      <div className="App">
-        <Header/>
-        <h1>alguma coisa</h1>
-      </div>  
+      <TemasDarkLight>
+        <h1>Olá</h1>
+      </TemasDarkLight>
     </>
 
   
